@@ -1,0 +1,87 @@
+.header{
+    background-image: url('../images/fernando-hernandez-1258790-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+   }
+
+   .overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.8);
+   }
+
+   .description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    
+}
+.description h1{
+ color:#353a40 ;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #353a40;
+ background:#353a40;
+ color:#fff;
+}
+
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+   }
+.about .desc{
+    border-left:4px solid #353a40;
+}
+.about .desc h3{
+    color: #353a40;
+}
+.about .desc p{
+    line-height:2;
+    color:#888;
+}
+
+.blog{
+    margin: 4em 0;
+    position: relative; 
+   }
+   .blog .card{
+    box-shadow: 0 0 20px #ccc;
+   }
+   .blog .card img{
+    width: 100%;
+    height: 12em;
+   }
+
+   /* .contact-form{
+    margin: 6em 0;
+    position: relative;  
+   } */
+   
+   /* .contact-form h1{
+    padding:2em 1px;
+    color: #F97300; 
+   } */
+   /* .contact-form .right{
+    max-width: 600px;
+   } */
+   /* .contact-form .right .btn-secondary{
+    background:  #F97300;
+    color: #fff;
+    border:0;
+   } */
+   /* .contact-form .right .form-control::placeholder{
+    color: #888;
+    font-size: 16px;
+   } */
